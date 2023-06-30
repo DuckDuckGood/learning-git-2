@@ -5,3 +5,46 @@ body {
     background-color: #32ff7e;
     font-family: 'Poppins';
 }
+
+.row {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-shadowed-steel {
+    background-color: #4b4b4b;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.color-light-indigo {
+    color: #7158e2;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 959px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
