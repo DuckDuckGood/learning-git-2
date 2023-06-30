@@ -10,6 +10,11 @@ body {
     width: 100%;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex {
     display: flex;
 }
@@ -22,17 +27,33 @@ body {
     justify-content: center;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 .color-light-indigo {
     color: #7158e2;
+}
+
+.color-winter-green {
+    color: #32ff7e;
 }
 
 .font-size-40 {
     font-size: 40px;
 }
 
+.font-size-20 {
+    font-size: 20px;
+}
+
 .py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.song-fragment {
+    width: 25%;
 }
 
 @media (max-width: 959px) {
